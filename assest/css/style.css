@@ -8,7 +8,7 @@
 
 .tophead {
     width: 100%;
-    height: 40px;
+    height: auto;
     display: flex;
     padding: 0px 100px;
     align-items: center;
@@ -96,37 +96,92 @@ section aside {
     padding: 24px 15px;
     float: right;
 }
-aside ul li{
+
+aside ul li {
     list-style: none;
     font-weight: 600;
 }
-aside ul li ul li{
+
+aside ul li ul li {
     font-weight: normal;
     padding-left: 20px;
 }
+
 /* CONTENT SECTION END */
 
 
 
 /* Footer section start */
-footer{
+footer {
     width: 100%;
     height: 100px;
     color: #fff;
     padding: 10px 100px;
     background: #05571d;
 }
-footer .link{
+
+footer .link {
     width: 33%;
     float: left;
 }
-footer .follow{
+
+footer .follow {
     width: 33%;
     float: left;
 }
-footer .copy{
+
+footer .copy {
     width: 34%;
     text-align: right;
     float: right;
 }
+
 /* Footer section end */
+
+/* media queries start */
+@media screen and (max-width: 991px) {
+    .tophead{
+        height: auto;
+        padding: 10px;
+    }
+
+    .tophead ul li {
+        display: block;
+    }
+
+    header,
+    nav {
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    section {
+        padding: 0px 0px 0px 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    section main, section aside {
+        float: none;
+        width: 100%;
+        padding: 0px;
+    }
+    footer .link, footer .follow, footer .copy{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:575px) {
+    header {
+        line-height: normal;
+    }
+
+    header h1,
+    header h3 {
+        display: block;
+    }
+}
+
+/* media queries end */
