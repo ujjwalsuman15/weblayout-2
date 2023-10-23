@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* TOP HEAD SECTION START */
+
+.tophead {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 40px;
+    background: #05571d;
+}
+
+.tophead ul li {
+    display: inline-block;
+    margin: 0px 3px;
+    color: #fff;
+}
+
+.tophead ul li a {
+    color: #c2e4c6;
+}
+
+/* TOP HEAD SECTION END */
+
+/* HEADER SECTION START */
+header {
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    line-height: 100px;
+    padding: 0px 100px;
+    background: #3fba64;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+header h1,
+h3 {
+    display: inline-block;
+}
+
+/* HEADER SECTION END */
+
+/* NAVAR SECTION START */
+nav {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 100px;
+    background: #00ce3e;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-size: 103%;
+    transition: 0.3s linear;
+}
+
+/* NAVAR SECTION END */
+/* CONTENT SECTION START */
+section {
+    width: 100%;
+    padding: 0px 100px;
+}
+
+section main {
+    width: 80%;
+    padding-top: 20px;
+    float: left;
+}
+
+section aside {
+    background: #d2ea85;
+    width: 20%;
+    padding: 24px 15px;
+    float: right;
+}
+aside ul li{
+    list-style: none;
+    font-weight: 600;
+}
+aside ul li ul li{
+    font-weight: normal;
+    padding-left: 20px;
+}
+/* CONTENT SECTION END */
+
+
+
+/* Footer section start */
+footer{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    padding: 10px 100px;
+    background: #05571d;
+}
+footer .link{
+    width: 33%;
+    float: left;
+}
+footer .follow{
+    width: 33%;
+    float: left;
+}
+footer .copy{
+    width: 34%;
+    text-align: right;
+    float: right;
+}
+/* Footer section end */
