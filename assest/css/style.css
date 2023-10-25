@@ -90,6 +90,32 @@ section main {
     float: left;
 }
 
+section main p {
+    margin-top: 2px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+section main ul {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+section main ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+section main ol li {
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+section main ul ul {
+    margin-top: 5px;
+}
+
 section aside {
     background: #d2ea85;
     width: 20%;
@@ -140,7 +166,7 @@ footer .copy {
 
 /* media queries start */
 @media screen and (max-width: 991px) {
-    .tophead{
+    .tophead {
         height: auto;
         padding: 10px;
     }
@@ -161,12 +187,17 @@ footer .copy {
 }
 
 @media screen and (max-width:767px) {
-    section main, section aside {
+
+    section main,
+    section aside {
         float: none;
         width: 100%;
         padding: 0px;
     }
-    footer .link, footer .follow, footer .copy{
+
+    footer .link,
+    footer .follow,
+    footer .copy {
         float: none;
         width: 100%;
         text-align: center;
